@@ -6,5 +6,6 @@ sort:
 output:
   file: "README.md"
 
-  settings:
-    color: true
+settings:
+  color: true
+  escape: false
