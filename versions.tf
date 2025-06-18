@@ -3,11 +3,11 @@ terraform {
 
   required_providers {
     aws = {
-      source  = "opentofu/aws"
-      version = ">= 5.68"
+      source  = "hashicorp/aws"
+      version = ">= 5.0.0, < 6.0.0"
     }
     random = {
-      source = "opentofu/random"
+      source = "hashicorp/random"
       version = "~> 3.6.3"
     }
   }

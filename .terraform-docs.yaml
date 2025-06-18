@@ -1,0 +1,11 @@
+formatter: "markdown document"
+
+sort:
+  enabled: false
+
+output:
+  file: "README.md"
+
+settings:
+  color: true
+  escape: false
